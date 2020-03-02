@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import './App.css';
+import ReactPlayer from 'react-player'
+import {Home} from './containers/Home/Home';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Pew pew pew
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+class App extends Component {
+  render() {
+    return (
+	<div className="App">
+		<div className="MainPlayer">
+			<ReactPlayer url='https://media.w3.org/2010/05/sintel/trailer_hd.mp4' controls/>
+		</div>
+	  <React.Fragment>
+		<Home/>
+
+	  </React.Fragment>
     </div>
-  );
+	);
+  }
 }
 
 export default App;
