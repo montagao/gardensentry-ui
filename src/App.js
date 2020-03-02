@@ -4,6 +4,19 @@ import ReactPlayer from 'react-player'
 import {Home} from './containers/Home/Home';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: null,
+    };
+  }
+
+  componentDidMount() {
+    fetch('http://gardensentry.systems/api/v1/events')
+      .then(response => response.json())
+      .then(data => this.setState({ data }));
+  } 
+
   render() {
     return (
 	<div className="App">
@@ -12,7 +25,6 @@ class App extends Component {
 		</div>
 	  <React.Fragment>
 		<Home/>
-
 	  </React.Fragment>
     </div>
 	);
