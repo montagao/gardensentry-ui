@@ -1,11 +1,21 @@
 @import '../../styles/shared.scss';
-
+html,body { height:100%; }
 .home {
-  margin-top: $header-nav-height;
   display: grid;
   grid: auto / auto;
   justify-content: center;
+  /*margin: $header-nav-height;*/
 }
+
+.MainPlayer {
+  padding-top: $header-nav-height;
+}
+
+.featured {
+  margin-bottom: $header-nav-height;
+  display: flex;
+}
+
 @media all and (min-width: 476px) {
   .responsive-video-grid-container {
     max-width: 240px;
