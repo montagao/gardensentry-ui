@@ -13,7 +13,7 @@ export class VideoGrid extends React.Component {
   };
 
   componentDidMount() {
-    fetch('http://gardensentry.systems/api/v1/events')
+    fetch('http://gardensentry.systems/api/v1/events?limit=200')
       .then(response => response.json())
       .then(data => {
         data.sort(function(a,b){
