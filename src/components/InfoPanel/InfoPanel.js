@@ -24,12 +24,12 @@ export class InfoPanel extends React.Component {
         <div className='analytics'>
           <div className='title'> <h3>Garden Sentry<br/> Dashboard</h3></div>
           <div className='stats'>
-            <b>Current Status: </b> Good <br/>
+            <b>Current Status: </b> Monitoring... <br/>
             <b>Defense Incidents</b> <br/>
-            Today: {this.props.dayIncidents} <br/>
-            Past Week: {this.props.pastWeekIncidents} <br/>
-            Past Month: {this.props.pastMonthIncidents} <br/>
-            All Time: {this.props.totalIncidents} <br/>
+            Today: {this.props.dayCount} <br/>
+            Past Month: {this.props.monthCount} <br/>
+            Past Year: {this.props.yearCount} <br/>
+            All Time: {this.props.totalCount} <br/>
           </div>
         </div>
       </div>

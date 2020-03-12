@@ -9,13 +9,55 @@ export class Home extends React.Component {
     super(props);
     this.state = {
       data: null,
+      dayCount: 0,
+      monthCount: 0,
+      yearCount: 0,
+      totalCount: 0,
     }
   }
 
   componentDidMount() {
-    this.setState({
-      mainVid: "https://storage.googleapis.com/waterscarecrow_test_bucket1/2020/03/09/67438056",
-    });
+    fetch('http://gardensentry.systems/api/v1/events')
+      .then(response => response.json())
+      .then(data => {
+
+        data.sort(function(a,b){
+           var aTime = Date.parse(a.timestamp);
+           var bTime = Date.parse(b.timestamp);
+           if (aTime > bTime) {
+             return -1;
+           }
+           if (bTime > aTime){
+             return 1;
+           }
+           return 0;
+        });
+        let dayCount = 0;
+        let monthCount = 0;
+        let yearCount = 0;
+        let totalCount = data.length;
+        let now = new Date();
+
+        var incrementCount = (date) =>  {
+          if (date.getDay() === now.getDay()) dayCount++;
+          if (date.getMonth() === now.getMonth()) monthCount++;
+          if (date.getYear() === now.getYear()) yearCount++;
+        };
+        for (var i = 0; i < data.length; i++) {
+            var event = data[i];
+            var eventDate = new Date(event.timestamp)
+            incrementCount(eventDate);
+        }
+        this.setState({ dayCount: dayCount, 
+          monthCount: monthCount,
+          yearCount: yearCount,
+          totalCount: totalCount });
+          
+        }
+       );
+      this.setState({
+        mainVid: "https://storage.googleapis.com/waterscarecrow_test_bucket1/2020/03/09/67438056",
+      });
 
   }
 
@@ -30,12 +72,12 @@ export class Home extends React.Component {
       <React.Fragment>
         <div className='home'>
           <div className='featured'>
-            <InfoPanel dayIncidents={4}
-            pastWeekIncidents={4}
-            pastMonthIncidents={4}
-            totalIncidents={4}/>
+            <InfoPanel dayCount={this.state.dayCount}
+            monthCount={this.state.monthCount}
+            yearCount={this.state.yearCount}
+            totalCount={this.state.totalCount}/>
             <div className="MainPlayer">
-              <ReactPlayer url={this.state.mainVid} controls/>
+              <ReactPlayer url={this.state.mainVid} controls width="480px" height="360px"/>
             </div>
           </div>
           <div className="responsive-video-grid-container">

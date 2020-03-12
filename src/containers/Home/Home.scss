@@ -4,15 +4,17 @@ html,body { height:100%; }
   display: grid;
   grid: auto / auto;
   justify-content: center;
-  /*margin: $header-nav-height;*/
+  margin-top: $header-nav-height;
 }
 
 .MainPlayer {
-  padding-top: $header-nav-height;
+  /*padding-top: 25px;*/
+  border: solid black 2px;
 }
 
 .featured {
   margin-bottom: $header-nav-height;
+  justify-content: center;
   display: flex;
 }
 

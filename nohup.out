@@ -607,3 +607,311 @@ Compiled with warnings.
 Search for the keywords to learn more about each warning.
 To ignore, add // eslint-disable-next-line to the line before.
 
+Compiling...
+Failed to compile.
+
+./src/containers/Home/Home.js
+  Line 45:16:  'VideoPreview' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/containers/Home/Home.js
+  Line 48:16:  'VideoPreview' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/containers/Home/Home.js
+Syntax error: Unexpected token, expected ";" (40:34)
+
+  38 |         var totalCount =0;
+  39 | 
+> 40 |         incrementCount => (date) {
+     |                                  ^
+  41 |           if (date.getDay === Date.now().getDay()) dayCount++;
+  42 |           if (date.getDay === Date.now().getDay()) dayCount++;
+  43 |           if (date.getDay === Date.now().getDay()) dayCount++;
+Compiling...
+Failed to compile.
+
+./src/containers/Home/Home.js
+  Line 40:9:   'incrementCount' is not defined  no-undef
+  Line 56:16:  'VideoPreview' is not defined    react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/containers/Home/Home.js
+  Line 56:16:  'VideoPreview' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+./src/containers/Home/Home.js
+  Line 35:13:  'dayCount' is assigned a value but never used    no-unused-vars
+  Line 36:13:  'monthCount' is assigned a value but never used  no-unused-vars
+  Line 37:13:  'yearCount' is assigned a value but never used   no-unused-vars
+  Line 38:13:  'totalCount' is assigned a value but never used  no-unused-vars
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/containers/Home/Home.js
+  Line 12:7:  'dayCount' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/containers/Home/Home.js
+  Line 12:7:  'dayCount' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/containers/Home/Home.js
+Syntax error: Unexpected token, expected "," (56:9)
+
+  54 |           totalCount: totalCount });
+  55 |         }
+> 56 |         console.log(this.state)
+     |         ^
+  57 |        );
+  58 |       this.setState({
+  59 |         mainVid: "https://storage.googleapis.com/waterscarecrow_test_bucket1/2020/03/09/67438056",
+Compiling...
+Failed to compile.
+
+./src/containers/Home/Home.js
+Syntax error: Unexpected token, expected "," (56:9)
+
+  54 |           totalCount: totalCount });
+  55 |         }
+> 56 |         console.log(this.state);
+     |         ^
+  57 |        );
+  58 |       this.setState({
+  59 |         mainVid: "https://storage.googleapis.com/waterscarecrow_test_bucket1/2020/03/09/67438056",
+Compiling...
+Failed to compile.
+
+./src/containers/Home/Home.js
+Syntax error: Unexpected token, expected "," (55:10)
+
+  53 |           yearCount: yearCount,
+  54 |           totalCount: totalCount });
+> 55 |         };
+     |          ^
+  56 |         console.log(this.state);
+  57 |        );
+  58 |       this.setState({
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/InfoPanel/InfoPanel.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
